@@ -44,6 +44,20 @@ header {
     margin-top: -8rem;
 }
 
+/*=======================================*/
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+/*Esse bloco é para fazer com que o texto fique visivel apenas para leitores de tela*/
+/*======================================*/
 #balance h2 {
     color: #fff;
     margin-top: 0;
@@ -62,6 +76,9 @@ header {
 .card h3 {
     font-weight: normal;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card p {
